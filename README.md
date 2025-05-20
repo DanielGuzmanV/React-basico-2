@@ -1,6 +1,13 @@
+## Curso de React basico con Javascript + CRA
+Curso realizado por `Codigo 369`
+- [Canal de Codigo 369](https://www.youtube.com/@Codigo369)
+
+- [Video del curso de React](https://www.youtube.com/watch?v=0C5yFwOYhAk)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
