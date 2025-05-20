@@ -1,0 +1,18 @@
+.card {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+}
+
+.on {
+  background-color: rgb(160, 206, 92);
+}
+
+.off {
+  background-color: rgb(94, 115, 116);
+}
+
+
+
+
+
