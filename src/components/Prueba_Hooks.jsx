@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import "./CardStyle.css"
 
 function Prueba_Hooks() {
@@ -8,18 +8,21 @@ function Prueba_Hooks() {
   const darLikes = () => {
     setLikes(likes + 1);
   }
-
+  useEffect(darLikes, [])
+  
   const quitarLikes = () => {
     if(likes === 0) return;
-      setLikes(likes - 1);
+    setLikes(likes - 1);
   }
+  useEffect(quitarLikes, [])
   // ==================================
-
+  
   // Cambiar tema:
   const [temas, setTema] = useState(false);
   const cambiarTema = () => {
     setTema(temas? false : true);
   }
+  useEffect(cambiarTema, [])
 
 
   return (
