@@ -4,6 +4,10 @@
   padding: 20px;
 }
 
+.imagen {
+  width: 200px;
+}
+
 .on {
   background-color: rgb(160, 206, 92);
 }

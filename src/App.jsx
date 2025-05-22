@@ -1,5 +1,6 @@
 import './App.css';
 import Card from './components/Card';
+import { Card_Array } from './components/Card_Array';
 import Component_Coffe from './components/Component_Coffe';
 import {Component_Users} from './components/Component_Users';
 
@@ -19,8 +20,10 @@ function App() {
         } }
       /> */}
       
-      {/* Probamos el componente "Card" */}
-      <Card estado = {true}/>
+      {/* Componente "Card" comentado*/}
+      {/* <Card estado = {true}/> */}
+
+      < Card_Array/>
     </div>
   );
 }
